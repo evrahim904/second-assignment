@@ -1,3 +1,9 @@
+/* ------------------
+   header style
+------------------ */
+header{
+    background: rgba(255, 144, 14, 0.1);
+}
 /* nav style section */
 nav{
     display: flex;
@@ -21,7 +27,7 @@ nav{
     margin-right: 50px;
 }
 /* --------------------------
-container style section
+banner style section
 -------------------------- */
 .banner{
     width: 862px;
@@ -51,4 +57,86 @@ border:0;
 height: 600px;
 border-radius: 8px;
 margin-left: 60px;
+margin-bottom: 30px;
+margin-top: 30px;
+}
+/* --------------------
+team style section
+-------------------- */
+.team{
+    display: flex;
+}
+.team-image{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    width: 700px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.team-image img{
+    width: 342px;
+    height: 342px;
+    border-radius: 8px;
+}
+.team-info{
+    height: 300px;
+    margin-top: 260px;
+margin-left: 50px;
+}
+.team-title{
+    color: #131313;
+}
+#quick-list{
+    color: #727272;
+}
+#features{
+    color: #FF900E;
+}
+.btn-primery2{
+    width: 180px;
+height: 64px;
+background: #FF900E;
+border-radius: 8px;
+border: 0;
+}
+.team-description{
+    font-size: 16px;
+}
+/* -----------------------
+container style section
+----------------------- */
+.container-section{
+    width: 1440px;
+height: 1059px;
+margin: 70px 50px;
+}
+.container-info{
+    display: flex;
+    height: 100px;
+}
+.container-title{
+    font-size: 45px;
+    margin-top: 0;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+.container-description{
+    font-size: 16px;
+    margin-top: 24px;
+}
+.container-detai{
+    width: 586px;
+height: 744px;
+}
+.container-detail-info{
+    width: 586px;
+height: 171px;
+}
+.container-detail-title{
+    font-size: 20px;
+}
+.container-detail-description{
+    font-size: 16px;
 }
